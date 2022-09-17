@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: #242424 ;
+    height: 50px;
+}
+
+nav ul{
+    line-height: 50px;
+    list-style: none;
+    margin-right: 20px;    
+}
+
+nav li{
+    float: right;
+    margin-right: 35px;
+}
+
+nav a{
+    color: #43E6F0;
+    font-size: 18px;
+}
+
+nav a:hover{
+    text-decoration: underline 1px;
+}
+
+nav p{
+    position: absolute;
+    line-height: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 740px){
+    nav li{
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    nav p{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}

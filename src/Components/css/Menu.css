@@ -1,0 +1,159 @@
+
+.menuWrapper{
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+    color: white;
+    outline: solid 1px;
+}
+
+.menu h1{
+    color: #43E6F0;
+    font-size: 128px;
+    font-family: 'Loved by the King', cursive;
+}
+
+.mainMenu{
+    margin-top: 20px;
+}
+.mainMenu h2{
+    color: #43E6F0;
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-family: 'Frijole', cursive;
+}
+
+.mainMenu p{
+    padding-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.miniMenus{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+}
+
+.miniMenu h2{
+    color: #43E6F0;
+    font-size: 25px;
+    font-family: 'Frijole', cursive;
+    margin-bottom: 10px;
+}
+
+.miniMenu p{
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding-bottom: 5px;
+}
+
+/* Menu images */
+#iceCreamCone{
+    position: absolute;
+    margin-right: 750px;
+    margin-top: 235px;
+}
+
+#watermelon{
+    position: absolute;
+    margin-right: 530px;
+    margin-top: 520px;
+}
+
+#orange{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 400px;
+}
+
+@media (max-width: 1020px) {
+    .menu{
+        width: 600px;
+        height: 1200px;
+        margin-bottom: 200px;
+    }
+
+    #iceCreamCone{
+        margin-right: 450px;
+        margin-top: 150px;
+        height: 200px;
+    }
+
+    #watermelon{
+        margin-right: 420px;
+        margin-top: 580px;
+        height: 250px;
+        transform: rotate(75deg);
+    }
+
+    #orange{
+        margin-left: 450px;
+        margin-top: 320px;
+        height: 100px;
+    }
+  }
+
+@media (max-width: 610px){
+    .menu{
+        width: 350px;
+        height: 900px;
+    }
+
+    .mainMenu{
+        margin-top: 0px;
+    }
+
+    .mainMenu h2{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .mainMenu p{
+        padding-bottom: 5px;
+        font-size: 36px;
+    }
+
+    .miniMenus{
+        margin-top: 50px;
+    }
+
+    .miniMenu h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .miniMenu p{
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    #iceCreamCone{
+        margin-right: 270px;
+        margin-top: 180px;
+        height: 80px;
+        transform: rotate(300deg);
+        transform: scaleX(-1) ;
+    }
+
+    #watermelon{
+        margin-right: 300px;
+        margin-top: 500px;
+        height: 110px;
+        transform: rotate(75deg);
+    }
+
+    #orange{
+        margin-left: 240px;
+        margin-top: 180px;
+        height: 70px;
+    }
+}

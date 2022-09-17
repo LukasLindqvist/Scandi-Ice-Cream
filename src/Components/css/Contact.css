@@ -1,0 +1,219 @@
+
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    height: 1280px;
+}
+
+/* Left side of contact box */
+.left{
+    margin-top: 100px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
+
+.topText{
+    text-align: center;
+    font-size: 20px;
+}
+
+.contactInfo{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.phoneInfo p{
+    display: inline-block;
+}
+
+.phoneInfo img{
+    margin-right: 13px;
+    vertical-align: -4px;
+}
+
+.emailInfo p{
+    display: inline-block;
+}
+
+.emailInfo img{
+    margin-top: 15px;
+    margin-right: 13px;
+    vertical-align: -4px;
+}
+
+#lastInfo{
+    font-weight: bold; 
+    margin-top: 10px;
+}
+
+.googleMaps{
+    height: 255px;
+}
+
+/* Right side of contact box */
+.right{
+    margin-top: 100px;
+    background-color: #242424;
+    color: #4D8E8A;
+    width: 460px;
+    height: 600px;
+}
+.right h2{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.right input{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    background-color: #242424;
+    color: white;
+    font-size: 20px;
+}
+
+.right input::placeholder{
+    color: #4D8E8A;; 
+}
+
+.right textarea{
+    margin-left: 20px;
+    width: 400px;
+    height: 140px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    background-color: #242424;
+    color: white;
+    font-size: 20px;
+}
+
+.right textarea::placeholder{
+    color: #4D8E8A; 
+}
+
+.formButton{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.right button{
+    width: 130px;
+    height: 35px;
+    border: none;
+    background-color: #4D8E8A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right button:hover{
+    background-color: #497774;
+}
+
+.right button:active{
+    transform: translateY(2px);
+}
+
+/* Change border color on select */
+.right input:focus{
+    border-bottom: 1px solid white;
+}
+
+.right textarea:focus{
+    border-bottom: 1px solid white;
+}
+
+/* Validation css */
+
+.contactForm p{
+    color: red;
+    margin-left: 25px;
+}
+
+.contactForm h3{
+    color: #4D8E8A;
+    margin-top: 40px;
+}
+
+@media (max-width: 870px){
+    /* Right side of contact box */
+    .right{
+        margin-top: 100px;
+        width: 300px;
+    }
+    .right input{
+        margin-bottom: 10px;
+        width: 260px;
+    }
+    .right textarea{
+        width: 260px;
+    }
+
+    /* Left side of contact box */
+}
+
+@media (max-width: 700px){
+    .topText{
+        font-size: 16px;
+    }
+    
+    .contactInfo{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 15px;   
+    }
+
+    .googleMaps{
+        height: 325px;
+    }
+}
+
+@media (max-width: 575px){
+    /* Change from flexbox to grid */
+    .formContainer{
+        display: grid;
+        justify-content: center;
+        height: 1500px;
+    }
+
+    /* Left side of contact box */
+    /* Swap order of divs in the grid display */
+    .left{
+        width: 360px;
+        order: 2;
+    }
+
+    .left{
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+
+    /* Right side of contact box */
+    /* Swap order of divs in the grid display */
+    .right{
+        width: 360px;
+        margin-top: 100px;
+        order: 1;
+    }
+
+    .right input{
+        margin-bottom: 10px;
+        width: 330px;
+    }
+
+    .right textarea{
+        width: 330px;
+    }
+}
