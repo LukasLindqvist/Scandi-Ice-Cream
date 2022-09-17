@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Scandi-Ice-Cream/static/css/main.db3177bf.css",
+    "main.js": "/Scandi-Ice-Cream/static/js/main.2a620b97.js",
+    "static/media/Ice_Cream_Truck.jpg": "/Scandi-Ice-Cream/static/media/Ice_Cream_Truck.c03f8edcd1bfa460ccb6.jpg",
+    "static/media/ice_Cream2.png": "/Scandi-Ice-Cream/static/media/ice_Cream2.66600771da66a8fa71da.png",
+    "static/media/ice-cream-hero.jpg": "/Scandi-Ice-Cream/static/media/ice-cream-hero.e0a191de9524cad7243b.jpg",
+    "static/media/ice_cream1.jpg": "/Scandi-Ice-Cream/static/media/ice_cream1.fd709105aee8d39df23c.jpg",
+    "static/media/ice_cream_menu 1.png": "/Scandi-Ice-Cream/static/media/ice_cream_menu 1.187548a61b9084a53462.png",
+    "static/media/watermelon 2.png": "/Scandi-Ice-Cream/static/media/watermelon 2.e5e4c9b5d322822c6f75.png",
+    "static/media/orange 1.png": "/Scandi-Ice-Cream/static/media/orange 1.c78111d0a427b905ed6a.png",
+    "index.html": "/Scandi-Ice-Cream/index.html",
+    "main.db3177bf.css.map": "/Scandi-Ice-Cream/static/css/main.db3177bf.css.map",
+    "main.2a620b97.js.map": "/Scandi-Ice-Cream/static/js/main.2a620b97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db3177bf.css",
+    "static/js/main.2a620b97.js"
+  ]
+}
